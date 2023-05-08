@@ -10,9 +10,10 @@ jobs:
       - name: firstJob script
         shell: cmd
         run: echo Hello Worls! This is the rist job
-    secondjob:
-      - name: secondJob script
-        shell: bash
-        run: |
-          echo this is the second
-          echo and this is the multi-line script
+
+  secondjob:
+    - name: secondJob script
+      shell: bash
+      run: |
+        echo this is the second
+        echo and this is the multi-line script
