@@ -1,0 +1,20 @@
+name: first wokflow
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  firstjob:
+    runs-on: self-hostetd
+    steps:
+      - name firstJob script
+        shell: cmd
+        run: echo Hello Worls! This is the rist job
+        
+        
+    secondjob:
+      - name: secondJHob script
+        shell: bash
+        run: |
+          echo this is the second
+          echo and this is the multi-line script
