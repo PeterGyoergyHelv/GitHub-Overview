@@ -10,8 +10,7 @@ jobs:
       - name: firstJob script
         shell: cmd
         run: echo Hello Worls! This is the rist job
-        
-    secondJob:
+    secondjob:
       - name: secondJob script
         shell: bash
         run: |
