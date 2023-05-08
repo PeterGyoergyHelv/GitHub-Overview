@@ -5,7 +5,7 @@ on:
   
 jobs:
   firstjob:
-    runs-on: self-hostetd
+    runs-on: githubRunner
     steps:
       - name: firstJob script
         shell: cmd
