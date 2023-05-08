@@ -7,7 +7,7 @@ jobs:
   firstjob:
     runs-on: self-hostetd
     steps:
-      - name firstJob script
+      - name: firstJob script
         shell: cmd
         run: echo Hello Worls! This is the rist job
         
