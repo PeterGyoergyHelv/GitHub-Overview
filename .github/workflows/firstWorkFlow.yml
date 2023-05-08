@@ -11,9 +11,8 @@ jobs:
         shell: cmd
         run: echo Hello Worls! This is the rist job
         
-        
-    secondjob:
-      - name: secondJHob script
+    secondJob:
+      - name: secondJob script
         shell: bash
         run: |
           echo this is the second
